@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{ super() }} - Basic Info{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+       <h3 id="description">
+    This is a website made by Jialin Yang, and it gives a brief description about my academic and personality!<br/>
+    The purpose of this website is getting to know more people and apply for working internship.<br/> Later, this
+    website will be part of my resume.<br/><br/>
+       </h3>
+
+        <dl id="Basics">
+            <dt><strong>Name</strong></dt>
+
+            <dd>Jialin Yang</dd>
+            <dt><strong>Gender</strong></dt>
+
+            <dd>Male</dd>
+            <dt><strong>Age</strong></dt>
+
+            <dd>20 years old</dd>
+            <dt><strong>Personality</strong></dt>
+
+            <dd>INFP-A The mediator<sup>The mediator</sup>
+    <a href="https://www.16personalities.com/profiles/320c5a3955359" target="_blank">
+        <img src="https://static.neris-assets.com/images/personality-types/avatars/infp-mediator-male.svg?v=1"
+         alt="MyPersonality" width="200" height="200">
+    </a>    </dd>
+
+            <dt><strong>Hobby</strong></dt>
+            <dd>Travel and Video Games</dd>
+
+        </dl>
+    </div>
+{% endblock %}
